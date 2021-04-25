@@ -1,9 +1,10 @@
 package com.codewithmosh;
+import java.awt.*;
 
 public class Main {
 
     public static void main(String[] args) {
-	    System.out.println("Hello World!");
-
+        String message = "Hello World" + "!!";
+        System.out.println(message.length());
     }
 }
