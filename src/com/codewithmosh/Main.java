@@ -1,10 +1,12 @@
 package com.codewithmosh;
-import java.awt.*;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        String message = "Hello World" + "!!";
-        System.out.println(message.length());
+        System.out.print("Age: 20");
+         Scanner scanner = new Scanner(System.in);
+         byte age = scanner.nextByte();
+        System.out.println("You are " + age);
     }
 }
